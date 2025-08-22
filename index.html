@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vegitable market</title>
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- font awsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body class="overflow-x-hidden">
+  <div class="container-fluid">
+
+    <!-- Hero Section with Navbar -->
+    <div id="bg" class="d-flex flex-column justify-content-center text-center text-light"
+         style="background: url('images/fresh-harvest-vegetables1.jpg') center/cover no-repeat; min-height: 100vh;">
+      
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/fresh-vegetable-and-fruit-logo-design-premium-vector-removebg-preview.png" alt="logo" style="width:60px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link fw-semibold active" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link fw-semibold" href="#products">Products</a></li>
+              <li class="nav-item"><a class="nav-link fw-semibold" href="#carouselExampleAutoplaying">Offers</a></li>
+              <li class="nav-item"><a class="nav-link fw-semibold" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link fw-semibold" href="#review">Reviews</a></li>
+              <li class="nav-item"><a class="nav-link fw-semibold" href="#contactfootr">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Home Content -->
+      <div id="home" class="px-3 py-5">
+        <h1 class="fw-bold display-5 display-md-3" style="text-shadow: -1px -1px 0 #ffb300, 1px -1px 0 #ffb300, -1px 1px 0 #ffb300, 1px 1px 0 black; font-family: cursive;">
+          ORGANIC <br> FRUITS AND VEGETABLES
+        </h1>
+        <a href="#products" class="btn btn-warning rounded-pill px-5 py-3 mt-4">Explore Now</a>
+      </div>
+    </div>
+
+    <!-- Products Section -->
+    <div id="products" class="text-center py-5">
+      <h3 class="fw-bold fs-1 mb-4">FARM GROWN PRODUCTS</h3>
+      <div class="row justify-content-center g-4">
+        <div class="col-10 col-sm-6 col-md-3">
+          <div class="card text-bg-warning h-100">
+            <img src="./images/—Pngtree—basket of fresh red onions_16264411.png" class="card-img-top" alt="Onion">
+            <div class="card-body">
+              <h5 class="card-title">Onion</h5>
+              <p class="card-text">1kg - 38₹</p>
+              <a href="#" class="btn btn-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-3">
+          <div class="card text-bg-warning h-100">
+            <img src="./images/—Pngtree—tomatoes in a basket generative_14518430.png" class="card-img-top" alt="Tomato">
+            <div class="card-body">
+              <h5 class="card-title">Tomato</h5>
+              <p class="card-text">1kg - 30₹</p>
+              <a href="#" class="btn btn-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-3">
+          <div class="card text-bg-warning h-100">
+            <img src="./images/—Pngtree—carrots vegetables in basket_14661953.png" class="card-img-top" alt="Carrot">
+            <div class="card-body">
+              <h5 class="card-title">Carrot</h5>
+              <p class="card-text">1kg - 59₹</p>
+              <a href="#" class="btn btn-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-3">
+          <div class="card text-bg-warning h-100">
+            <img src="./images/—Pngtree—farm-fresh spuds 1 white potatoes_14434144.png" class="card-img-top" alt="Potato">
+            <div class="card-body">
+              <h5 class="card-title">Potato</h5>
+              <p class="card-text">1kg - 40₹</p>
+              <a href="#" class="btn btn-success">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn btn-success rounded-pill mt-4">More Products</a>
+    </div>
+
+    <hr>
+
+    <!-- Offers Carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/1.jpeg" class="d-block w-100" alt="Offer 1">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="#offer" class="btn btn-warning rounded-pill">Go To Offer Zone</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/resized-image-Promo.jpeg" class="d-block w-100" alt="Offer 2">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="#offer" class="btn btn-warning rounded-pill">Go To Offer Zone</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <hr>
+
+    <!-- Offer Zone -->
+    <div id="offer" class="text-center py-5">
+      <h3 class="mb-5">OFFER ZONE</h3>
+      <div class="row justify-content-center g-4">
+        <div class="col-10 col-sm-6 col-md-3">
+          <div class="card h-100">
+            <img src="./images/Gemini_Generated_Image_hq2z63hq2z63hq2z.png" class="card-img-top" alt="Veg Offer">
+            <div class="card-body">
+              <h5 class="card-title">Vegetables<br>upto 50% off</h5>
+              <a href="#" class="btn btn-success">Get Offer</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-3">
+          <div class="card h-100">
+            <img src="./images/Gemini_Generated_Image_hq7dv3hq7dv3hq7d.png" class="card-img-top" alt="Fruit Offer">
+            <div class="card-body">
+              <h5 class="card-title">Fruits<br>upto 50% off</h5>
+              <a href="#" class="btn btn-success">Get Offer</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- About Us -->
+    <div id="about" class="container py-5">
+      <h3 class="text-center mb-5">ABOUT US</h3>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="fs-5 text-justify">
+            <span class="fw-bold fs-4">Welcome to our market</span><br>
+            We offer the freshest fruits and vegetables straight from local farms...
+            <br><br>
+            <span class="fw-bold fs-4">Our Promise to You</span><br>
+            We are committed to providing our community with seasonal, fresh, and delicious produce...
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="./images/medium-shot-woman-with-healthy-food.jpg" class="img-fluid rounded" alt="About">
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Reviews -->
+    <div id="review" class="container py-5">
+      <h3 class="text-center mb-5">Customer Reviews</h3>
+      <div class="row justify-content-center g-4">
+        <div class="col-10 col-sm-6 col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Karen M</h5>
+              <p class="card-text">"Fantastic quality and great prices. Everything is so fresh and tastes amazing."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">David L</h5>
+              <p class="card-text">"Incredible produce and friendly service! You can taste the freshness."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Thomas G</h5>
+              <p class="card-text">"The best customer service you'll find anywhere. The team is always so helpful."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-4 mb-4">
+            <h6 class="fw-bold">Most Popular Categories</h6>
+            <p>Fresh Vegetables <br> Fresh Fruits <br> Poultry <br> Meat <br> Mutton <br> Eggs</p>
+          </div>
+          <div id="contactfootr" class="col-md-4 mb-4">
+            <!-- <h6 class="fw-bold">Contact Us</h6> -->
+            <div class="d-flex justify-content-center gap-3">
+              <a href="#" class="fs-3 text-success"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#" class="fs-3 text-dark"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="fs-3 text-dark"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h6 class="fw-bold">Information</h6>
+            <p>About Us <br> FSSAI <br> Refund & Cancellation Policy <br> Privacy Policy <br> Delivery Policy <br> Terms & Conditions</p>
+          </div>
+        </div>
+        <p class="text-center mt-4 mb-0">&copy; fruityvegie.com, All Rights Reserved to ®FRUITYVEGIE</p>
+      </div>
+    </footer>
+
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</html>
